@@ -1,0 +1,369 @@
+Warning: no access to tty (Bad file descriptor).
+Thus no job control in this shell.
+tset: standard error: Inappropriate ioctl for device
+
+stty: standard input: Inappropriate ioctl for device
+Wed Apr 17 12:26:40 CDT 2019
+ 
+ 
+make: Nothing to be done for `all'.
+Number of processes: 16
+python3 SuffixTreeCreate.py 124 62 0 1000 1 1000 data/1000.txt run16_R2
+python3 SuffixTreeCreate.py 124 62 0 1000 0 1000 data/1000.txt run16_R2
+python3 SuffixTreeCreate.py 62 62 0 1000 0 1000 data/1000.txt run16_R1
+python3 SuffixTreeCreate.py 62 62 0 1000 1 1000 data/1000.txt run16_R1
+python3 SuffixTreeCreate.py 248 62 0 1000 1 1000 data/1000.txt run16_R4
+python3 SuffixTreeCreate.py 248 62 0 1000 0 1000 data/1000.txt run16_R4
+python3 SuffixTreeCreate.py 310 62 0 1000 1 1000 data/1000.txt run16_R5
+python3 SuffixTreeCreate.py 496 62 0 1000 1 1000 data/1000.txt run16_R8
+python3 SuffixTreeCreate.py 496 62 0 1000 0 1000 data/1000.txt run16_R8
+python3 SuffixTreeCreate.py 558 62 0 1000 1 1000 data/1000.txt run16_R9
+python3 SuffixTreeCreate.py 558 62 0 1000 0 1000 data/1000.txt run16_R9
+python3 SuffixTreeCreate.py 186 62 0 1000 0 1000 data/1000.txt run16_R3
+python3 SuffixTreeCreate.py 310 62 0 1000 0 1000 data/1000.txt run16_R5
+python3 SuffixTreeCreate.py 0 62 0 1000 1 1000 data/1000.txt run16_R0
+python3 SuffixTreeCreate.py 186 62 0 1000 1 1000 data/1000.txt run16_R3
+python3 SuffixTreeCreate.py 372 62 0 1000 0 1000 data/1000.txt run16_R6
+python3 SuffixTreeCreate.py 372 62 0 1000 1 1000 data/1000.txt run16_R6
+python3 SuffixTreeCreate.py 744 62 0 1000 0 1000 data/1000.txt run16_R12
+python3 SuffixTreeCreate.py 744 62 0 1000 1 1000 data/1000.txt run16_R12
+python3 SuffixTreeCreate.py 806 62 0 1000 0 1000 data/1000.txt run16_R13
+python3 SuffixTreeCreate.py 806 62 0 1000 1 1000 data/1000.txt run16_R13
+python3 SuffixTreeCreate.py 0 62 0 1000 0 1000 data/1000.txt run16_R0
+python3 SuffixTreeCreate.py 620 62 0 1000 0 1000 data/1000.txt run16_R10
+python3 SuffixTreeCreate.py 620 62 0 1000 1 1000 data/1000.txt run16_R10
+python3 SuffixTreeCreate.py 434 62 0 1000 1 1000 data/1000.txt run16_R7
+python3 SuffixTreeCreate.py 434 62 0 1000 0 1000 data/1000.txt run16_R7
+python3 SuffixTreeCreate.py 682 62 0 1000 1 1000 data/1000.txt run16_R11
+python3 SuffixTreeCreate.py 682 62 0 1000 0 1000 data/1000.txt run16_R11
+python3 SuffixTreeCreate.py 868 62 0 1000 0 1000 data/1000.txt run16_R14
+python3 SuffixTreeCreate.py 930 62 0 1000 0 1000 data/1000.txt run16_R15
+python3 SuffixTreeCreate.py 930 62 0 1000 1 1000 data/1000.txt run16_R15
+python3 SuffixTreeCreate.py 868 62 0 1000 1 1000 data/1000.txt run16_R14
+python3 SuffixTreeMerge.py run16 1 merge_master
+python3 SuffixTreeMerge.py run16 0 merge_master
+
+Exiting gracefully
+	Command being timed: "mpirun -np 16 ./MainProgram 1000"
+	User time (seconds): 746.97
+	System time (seconds): 228.43
+	Percent of CPU this job got: 516%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 3:08.70
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 5201048
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 12
+	Minor (reclaiming a frame) page faults: 5028229
+	Voluntary context switches: 54784
+	Involuntary context switches: 839
+	Swaps: 0
+	File system inputs: 227728
+	File system outputs: 1629792
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Number of processes: 16
+python3 SuffixTreeCreate.py 62 31 0 500 0 500 data/500.txt run16_R2
+python3 SuffixTreeCreate.py 62 31 0 500 1 500 data/500.txt run16_R2
+python3 SuffixTreeCreate.py 31 31 0 500 0 500 data/500.txt run16_R1
+python3 SuffixTreeCreate.py 31 31 0 500 1 500 data/500.txt run16_R1
+python3 SuffixTreeCreate.py 124 31 0 500 0 500 data/500.txt run16_R4
+python3 SuffixTreeCreate.py 124 31 0 500 1 500 data/500.txt run16_R4
+python3 SuffixTreeCreate.py 155 31 0 500 1 500 data/500.txt run16_R5
+python3 SuffixTreeCreate.py 155 31 0 500 0 500 data/500.txt run16_R5
+python3 SuffixTreeCreate.py 93 31 0 500 0 500 data/500.txt run16_R3
+python3 SuffixTreeCreate.py 248 31 0 500 0 500 data/500.txt run16_R8
+python3 SuffixTreeCreate.py 248 31 0 500 1 500 data/500.txt run16_R8
+python3 SuffixTreeCreate.py 279 31 0 500 1 500 data/500.txt run16_R9
+python3 SuffixTreeCreate.py 279 31 0 500 0 500 data/500.txt run16_R9
+python3 SuffixTreeCreate.py 93 31 0 500 1 500 data/500.txt run16_R3
+python3 SuffixTreeCreate.py 372 31 0 500 0 500 data/500.txt run16_R12
+python3 SuffixTreeCreate.py 372 31 0 500 1 500 data/500.txt run16_R12
+python3 SuffixTreeCreate.py 403 31 0 500 1 500 data/500.txt run16_R13
+python3 SuffixTreeCreate.py 0 31 0 500 0 500 data/500.txt run16_R0
+python3 SuffixTreeCreate.py 0 31 0 500 1 500 data/500.txt run16_R0
+python3 SuffixTreeCreate.py 186 31 0 500 1 500 data/500.txt run16_R6
+python3 SuffixTreeCreate.py 186 31 0 500 0 500 data/500.txt run16_R6
+python3 SuffixTreeCreate.py 217 31 0 500 1 500 data/500.txt run16_R7
+python3 SuffixTreeCreate.py 403 31 0 500 0 500 data/500.txt run16_R13
+python3 SuffixTreeCreate.py 310 31 0 500 1 500 data/500.txt run16_R10
+python3 SuffixTreeCreate.py 217 31 0 500 0 500 data/500.txt run16_R7
+python3 SuffixTreeCreate.py 310 31 0 500 0 500 data/500.txt run16_R10
+python3 SuffixTreeCreate.py 341 31 0 500 1 500 data/500.txt run16_R11
+python3 SuffixTreeCreate.py 341 31 0 500 0 500 data/500.txt run16_R11
+python3 SuffixTreeCreate.py 434 31 0 500 0 500 data/500.txt run16_R14
+python3 SuffixTreeCreate.py 434 31 0 500 1 500 data/500.txt run16_R14
+python3 SuffixTreeCreate.py 465 31 0 500 0 500 data/500.txt run16_R15
+python3 SuffixTreeCreate.py 465 31 0 500 1 500 data/500.txt run16_R15
+python3 SuffixTreeMerge.py run16 1 merge_master
+python3 SuffixTreeMerge.py run16 0 merge_master
+
+Exiting gracefully
+	Command being timed: "mpirun -np 16 ./MainProgram 500"
+	User time (seconds): 144.18
+	System time (seconds): 50.63
+	Percent of CPU this job got: 475%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:40.97
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 1297220
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 16
+	Minor (reclaiming a frame) page faults: 1102785
+	Voluntary context switches: 15308
+	Involuntary context switches: 3362
+	Swaps: 0
+	File system inputs: 55864
+	File system outputs: 311640
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Number of processes: 16
+python3 SuffixTreeCreate.py 50 25 0 400 0 400 data/400.txt run16_R2
+python3 SuffixTreeCreate.py 25 25 0 400 0 400 data/400.txt run16_R1
+python3 SuffixTreeCreate.py 25 25 0 400 1 400 data/400.txt run16_R1
+python3 SuffixTreeCreate.py 200 25 0 400 1 400 data/400.txt run16_R8
+python3 SuffixTreeCreate.py 200 25 0 400 0 400 data/400.txt run16_R8
+python3 SuffixTreeCreate.py 100 25 0 400 0 400 data/400.txt run16_R4
+python3 SuffixTreeCreate.py 100 25 0 400 1 400 data/400.txt run16_R4
+python3 SuffixTreeCreate.py 125 25 0 400 1 400 data/400.txt run16_R5
+python3 SuffixTreeCreate.py 125 25 0 400 0 400 data/400.txt run16_R5
+python3 SuffixTreeCreate.py 50 25 0 400 1 400 data/400.txt run16_R2
+python3 SuffixTreeCreate.py 75 25 0 400 1 400 data/400.txt run16_R3
+python3 SuffixTreeCreate.py 75 25 0 400 0 400 data/400.txt run16_R3
+python3 SuffixTreeCreate.py 225 25 0 400 0 400 data/400.txt run16_R9
+python3 SuffixTreeCreate.py 225 25 0 400 1 400 data/400.txt run16_R9
+python3 SuffixTreeCreate.py 0 25 0 400 1 400 data/400.txt run16_R0
+python3 SuffixTreeCreate.py 300 25 0 400 1 400 data/400.txt run16_R12
+python3 SuffixTreeCreate.py 300 25 0 400 0 400 data/400.txt run16_R12
+python3 SuffixTreeCreate.py 250 25 0 400 0 400 data/400.txt run16_R10
+python3 SuffixTreeCreate.py 325 25 0 400 0 400 data/400.txt run16_R13
+python3 SuffixTreeCreate.py 325 25 0 400 1 400 data/400.txt run16_R13
+python3 SuffixTreeCreate.py 150 25 0 400 0 400 data/400.txt run16_R6
+python3 SuffixTreeCreate.py 175 25 0 400 0 400 data/400.txt run16_R7
+python3 SuffixTreeCreate.py 250 25 0 400 1 400 data/400.txt run16_R10
+python3 SuffixTreeCreate.py 0 25 0 400 0 400 data/400.txt run16_R0
+python3 SuffixTreeCreate.py 175 25 0 400 1 400 data/400.txt run16_R7
+python3 SuffixTreeCreate.py 150 25 0 400 1 400 data/400.txt run16_R6
+python3 SuffixTreeCreate.py 275 25 0 400 0 400 data/400.txt run16_R11
+python3 SuffixTreeCreate.py 275 25 0 400 1 400 data/400.txt run16_R11
+python3 SuffixTreeCreate.py 350 25 0 400 0 400 data/400.txt run16_R14
+python3 SuffixTreeCreate.py 350 25 0 400 1 400 data/400.txt run16_R14
+python3 SuffixTreeCreate.py 375 25 0 400 1 400 data/400.txt run16_R15
+python3 SuffixTreeCreate.py 375 25 0 400 0 400 data/400.txt run16_R15
+python3 SuffixTreeMerge.py run16 1 merge_master
+python3 SuffixTreeMerge.py run16 0 merge_master
+
+Exiting gracefully
+	Command being timed: "mpirun -np 16 ./MainProgram 400"
+	User time (seconds): 85.03
+	System time (seconds): 29.57
+	Percent of CPU this job got: 464%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:24.67
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 776624
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 19
+	Minor (reclaiming a frame) page faults: 765765
+	Voluntary context switches: 12776
+	Involuntary context switches: 408
+	Swaps: 0
+	File system inputs: 35984
+	File system outputs: 206456
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Number of processes: 16
+python3 SuffixTreeCreate.py 36 18 0 300 0 300 data/300.txt run16_R2
+python3 SuffixTreeCreate.py 54 18 0 300 0 300 data/300.txt run16_R3
+python3 SuffixTreeCreate.py 54 18 0 300 1 300 data/300.txt run16_R3
+python3 SuffixTreeCreate.py 72 18 0 300 0 300 data/300.txt run16_R4
+python3 SuffixTreeCreate.py 72 18 0 300 1 300 data/300.txt run16_R4
+python3 SuffixTreeCreate.py 90 18 0 300 1 300 data/300.txt run16_R5
+python3 SuffixTreeCreate.py 90 18 0 300 0 300 data/300.txt run16_R5
+python3 SuffixTreeCreate.py 36 18 0 300 1 300 data/300.txt run16_R2
+python3 SuffixTreeCreate.py 162 18 0 300 1 300 data/300.txt run16_R9
+python3 SuffixTreeCreate.py 162 18 0 300 0 300 data/300.txt run16_R9
+python3 SuffixTreeCreate.py 18 18 0 300 1 300 data/300.txt run16_R1
+python3 SuffixTreeCreate.py 18 18 0 300 0 300 data/300.txt run16_R1
+python3 SuffixTreeCreate.py 0 18 0 300 1 300 data/300.txt run16_R0
+python3 SuffixTreeCreate.py 180 18 0 300 1 300 data/300.txt run16_R10
+python3 SuffixTreeCreate.py 108 18 0 300 0 300 data/300.txt run16_R6
+python3 SuffixTreeCreate.py 216 18 0 300 0 300 data/300.txt run16_R12
+python3 SuffixTreeCreate.py 216 18 0 300 1 300 data/300.txt run16_R12
+python3 SuffixTreeCreate.py 144 18 0 300 1 300 data/300.txt run16_R8
+python3 SuffixTreeCreate.py 144 18 0 300 0 300 data/300.txt run16_R8
+python3 SuffixTreeCreate.py 234 18 0 300 1 300 data/300.txt run16_R13
+python3 SuffixTreeCreate.py 234 18 0 300 0 300 data/300.txt run16_R13
+python3 SuffixTreeCreate.py 180 18 0 300 0 300 data/300.txt run16_R10
+python3 SuffixTreeCreate.py 108 18 0 300 1 300 data/300.txt run16_R6
+python3 SuffixTreeCreate.py 126 18 0 300 0 300 data/300.txt run16_R7
+python3 SuffixTreeCreate.py 126 18 0 300 1 300 data/300.txt run16_R7
+python3 SuffixTreeCreate.py 0 18 0 300 0 300 data/300.txt run16_R0
+python3 SuffixTreeCreate.py 198 18 0 300 0 300 data/300.txt run16_R11
+python3 SuffixTreeCreate.py 198 18 0 300 1 300 data/300.txt run16_R11
+python3 SuffixTreeCreate.py 252 18 0 300 0 300 data/300.txt run16_R14
+python3 SuffixTreeCreate.py 252 18 0 300 1 300 data/300.txt run16_R14
+python3 SuffixTreeCreate.py 270 18 0 300 0 300 data/300.txt run16_R15
+python3 SuffixTreeCreate.py 270 18 0 300 1 300 data/300.txt run16_R15
+python3 SuffixTreeMerge.py run16 1 merge_master
+python3 SuffixTreeMerge.py run16 0 merge_master
+
+Exiting gracefully
+	Command being timed: "mpirun -np 16 ./MainProgram 300"
+	User time (seconds): 45.78
+	System time (seconds): 15.13
+	Percent of CPU this job got: 488%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:12.47
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 412040
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 11
+	Minor (reclaiming a frame) page faults: 503050
+	Voluntary context switches: 10529
+	Involuntary context switches: 467
+	Swaps: 0
+	File system inputs: 19544
+	File system outputs: 141080
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Number of processes: 16
+python3 SuffixTreeCreate.py 24 12 0 200 0 200 data/200.txt run16_R2
+python3 SuffixTreeCreate.py 48 12 0 200 0 200 data/200.txt run16_R4
+python3 SuffixTreeCreate.py 48 12 0 200 1 200 data/200.txt run16_R4
+python3 SuffixTreeCreate.py 36 12 0 200 0 200 data/200.txt run16_R3
+python3 SuffixTreeCreate.py 96 12 0 200 0 200 data/200.txt run16_R8
+python3 SuffixTreeCreate.py 96 12 0 200 1 200 data/200.txt run16_R8
+python3 SuffixTreeCreate.py 60 12 0 200 0 200 data/200.txt run16_R5
+python3 SuffixTreeCreate.py 60 12 0 200 1 200 data/200.txt run16_R5
+python3 SuffixTreeCreate.py 24 12 0 200 1 200 data/200.txt run16_R2
+python3 SuffixTreeCreate.py 108 12 0 200 0 200 data/200.txt run16_R9
+python3 SuffixTreeCreate.py 108 12 0 200 1 200 data/200.txt run16_R9
+python3 SuffixTreeCreate.py 0 12 0 200 1 200 data/200.txt run16_R0
+python3 SuffixTreeCreate.py 0 12 0 200 0 200 data/200.txt run16_R0
+python3 SuffixTreeCreate.py 12 12 0 200 1 200 data/200.txt run16_R1
+python3 SuffixTreeCreate.py 36 12 0 200 1 200 data/200.txt run16_R3
+python3 SuffixTreeCreate.py 12 12 0 200 0 200 data/200.txt run16_R1
+python3 SuffixTreeCreate.py 72 12 0 200 0 200 data/200.txt run16_R6
+python3 SuffixTreeCreate.py 72 12 0 200 1 200 data/200.txt run16_R6
+python3 SuffixTreeCreate.py 144 12 0 200 0 200 data/200.txt run16_R12
+python3 SuffixTreeCreate.py 144 12 0 200 1 200 data/200.txt run16_R12
+python3 SuffixTreeCreate.py 156 12 0 200 0 200 data/200.txt run16_R13
+python3 SuffixTreeCreate.py 156 12 0 200 1 200 data/200.txt run16_R13
+python3 SuffixTreeCreate.py 120 12 0 200 0 200 data/200.txt run16_R10
+python3 SuffixTreeCreate.py 120 12 0 200 1 200 data/200.txt run16_R10
+python3 SuffixTreeCreate.py 84 12 0 200 1 200 data/200.txt run16_R7
+python3 SuffixTreeCreate.py 84 12 0 200 0 200 data/200.txt run16_R7
+python3 SuffixTreeCreate.py 132 12 0 200 0 200 data/200.txt run16_R11
+python3 SuffixTreeCreate.py 132 12 0 200 1 200 data/200.txt run16_R11
+python3 SuffixTreeCreate.py 168 12 0 200 0 200 data/200.txt run16_R14
+python3 SuffixTreeCreate.py 168 12 0 200 1 200 data/200.txt run16_R14
+python3 SuffixTreeCreate.py 180 12 0 200 1 200 data/200.txt run16_R15
+python3 SuffixTreeCreate.py 180 12 0 200 0 200 data/200.txt run16_R15
+python3 SuffixTreeMerge.py run16 1 merge_master
+python3 SuffixTreeMerge.py run16 0 merge_master
+
+Exiting gracefully
+	Command being timed: "mpirun -np 16 ./MainProgram 200"
+	User time (seconds): 19.64
+	System time (seconds): 6.51
+	Percent of CPU this job got: 451%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:05.78
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 195264
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 14
+	Minor (reclaiming a frame) page faults: 181657
+	Voluntary context switches: 7661
+	Involuntary context switches: 519
+	Swaps: 0
+	File system inputs: 8640
+	File system outputs: 63232
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Number of processes: 16
+python3 SuffixTreeCreate.py 24 6 0 100 1 100 data/100.txt run16_R4
+python3 SuffixTreeCreate.py 24 6 0 100 0 100 data/100.txt run16_R4
+python3 SuffixTreeCreate.py 12 6 0 100 0 100 data/100.txt run16_R2
+python3 SuffixTreeCreate.py 12 6 0 100 1 100 data/100.txt run16_R2
+python3 SuffixTreeCreate.py 6 6 0 100 1 100 data/100.txt run16_R1
+python3 SuffixTreeCreate.py 6 6 0 100 0 100 data/100.txt run16_R1
+python3 SuffixTreeCreate.py 30 6 0 100 0 100 data/100.txt run16_R5
+python3 SuffixTreeCreate.py 30 6 0 100 1 100 data/100.txt run16_R5
+python3 SuffixTreeCreate.py 18 6 0 100 0 100 data/100.txt run16_R3
+python3 SuffixTreeCreate.py 18 6 0 100 1 100 data/100.txt run16_R3
+python3 SuffixTreeCreate.py 48 6 0 100 0 100 data/100.txt run16_R8
+python3 SuffixTreeCreate.py 48 6 0 100 1 100 data/100.txt run16_R8
+python3 SuffixTreeCreate.py 54 6 0 100 0 100 data/100.txt run16_R9
+python3 SuffixTreeCreate.py 54 6 0 100 1 100 data/100.txt run16_R9
+python3 SuffixTreeCreate.py 36 6 0 100 0 100 data/100.txt run16_R6
+python3 SuffixTreeCreate.py 0 6 0 100 1 100 data/100.txt run16_R0
+python3 SuffixTreeCreate.py 78 6 0 100 1 100 data/100.txt run16_R13
+python3 SuffixTreeCreate.py 78 6 0 100 0 100 data/100.txt run16_R13
+python3 SuffixTreeCreate.py 72 6 0 100 0 100 data/100.txt run16_R12
+python3 SuffixTreeCreate.py 72 6 0 100 1 100 data/100.txt run16_R12
+python3 SuffixTreeCreate.py 36 6 0 100 1 100 data/100.txt run16_R6
+python3 SuffixTreeCreate.py 42 6 0 100 0 100 data/100.txt run16_R7
+python3 SuffixTreeCreate.py 42 6 0 100 1 100 data/100.txt run16_R7
+python3 SuffixTreeCreate.py 0 6 0 100 0 100 data/100.txt run16_R0
+python3 SuffixTreeCreate.py 60 6 0 100 0 100 data/100.txt run16_R10
+python3 SuffixTreeCreate.py 66 6 0 100 0 100 data/100.txt run16_R11
+python3 SuffixTreeCreate.py 66 6 0 100 1 100 data/100.txt run16_R11
+python3 SuffixTreeCreate.py 60 6 0 100 1 100 data/100.txt run16_R10
+python3 SuffixTreeCreate.py 84 6 0 100 0 100 data/100.txt run16_R14
+python3 SuffixTreeCreate.py 90 6 0 100 0 100 data/100.txt run16_R15
+python3 SuffixTreeCreate.py 90 6 0 100 1 100 data/100.txt run16_R15
+python3 SuffixTreeCreate.py 84 6 0 100 1 100 data/100.txt run16_R14
+python3 SuffixTreeMerge.py run16 1 merge_master
+python3 SuffixTreeMerge.py run16 0 merge_master
+
+Exiting gracefully
+	Command being timed: "mpirun -np 16 ./MainProgram 100"
+	User time (seconds): 5.39
+	System time (seconds): 1.86
+	Percent of CPU this job got: 354%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:02.04
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 54788
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 13
+	Minor (reclaiming a frame) page faults: 65482
+	Voluntary context switches: 5878
+	Involuntary context switches: 3214
+	Swaps: 0
+	File system inputs: 2192
+	File system outputs: 16672
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

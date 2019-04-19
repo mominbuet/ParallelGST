@@ -1,0 +1,189 @@
+Warning: no access to tty (Bad file descriptor).
+Thus no job control in this shell.
+tset: standard error: Inappropriate ioctl for device
+
+stty: standard input: Inappropriate ioctl for device
+Wed Apr 17 14:15:48 CDT 2019
+ 
+ 
+make: Nothing to be done for `all'.
+Number of processes: 1
+python3 SuffixTreeCreate.py 0 1000 0 1000 1 1000 data/1000.txt run1_R0
+python3 SuffixTreeCreate.py 0 1000 0 1000 0 1000 data/1000.txt run1_R0
+python3 SuffixTreeMerge.py run1 0 merge_master
+python3 SuffixTreeMerge.py run1 1 merge_master
+
+Exiting gracefully
+	Command being timed: "mpirun -np 1 ./MainProgram 1000"
+	User time (seconds): 4598.72
+	System time (seconds): 24.20
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 1:17:17
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 2795144
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 4228
+	Minor (reclaiming a frame) page faults: 18443557
+	Voluntary context switches: 32832
+	Involuntary context switches: 397028
+	Swaps: 0
+	File system inputs: 600984
+	File system outputs: 1113224
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Number of processes: 1
+python3 SuffixTreeCreate.py 0 500 0 500 0 500 data/500.txt run1_R0
+python3 SuffixTreeCreate.py 0 500 0 500 1 500 data/500.txt run1_R0
+python3 SuffixTreeMerge.py run1 0 merge_master
+python3 SuffixTreeMerge.py run1 1 merge_master
+
+Exiting gracefully
+	Command being timed: "mpirun -np 1 ./MainProgram 500"
+	User time (seconds): 616.89
+	System time (seconds): 3.05
+	Percent of CPU this job got: 98%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 10:29.46
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 701864
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 1599643
+	Voluntary context switches: 6936
+	Involuntary context switches: 50614
+	Swaps: 0
+	File system inputs: 512
+	File system outputs: 211648
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Number of processes: 1
+python3 SuffixTreeCreate.py 0 400 0 400 0 400 data/400.txt run1_R0
+python3 SuffixTreeCreate.py 0 400 0 400 1 400 data/400.txt run1_R0
+python3 SuffixTreeMerge.py run1 0 merge_master
+python3 SuffixTreeMerge.py run1 1 merge_master
+
+Exiting gracefully
+	Command being timed: "mpirun -np 1 ./MainProgram 400"
+	User time (seconds): 328.51
+	System time (seconds): 1.78
+	Percent of CPU this job got: 98%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 5:35.36
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 437980
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 843014
+	Voluntary context switches: 3993
+	Involuntary context switches: 29465
+	Swaps: 0
+	File system inputs: 320
+	File system outputs: 135056
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Number of processes: 1
+python3 SuffixTreeCreate.py 0 300 0 300 1 300 data/300.txt run1_R0
+python3 SuffixTreeCreate.py 0 300 0 300 0 300 data/300.txt run1_R0
+python3 SuffixTreeMerge.py run1 0 merge_master
+python3 SuffixTreeMerge.py run1 1 merge_master
+
+Exiting gracefully
+	Command being timed: "mpirun -np 1 ./MainProgram 300"
+	User time (seconds): 158.88
+	System time (seconds): 1.12
+	Percent of CPU this job got: 98%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 2:42.91
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 243420
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 458740
+	Voluntary context switches: 2634
+	Involuntary context switches: 12232
+	Swaps: 0
+	File system inputs: 184
+	File system outputs: 75600
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Number of processes: 1
+python3 SuffixTreeCreate.py 0 200 0 200 0 200 data/200.txt run1_R0
+python3 SuffixTreeCreate.py 0 200 0 200 1 200 data/200.txt run1_R0
+python3 SuffixTreeMerge.py run1 1 merge_master
+python3 SuffixTreeMerge.py run1 0 merge_master
+
+Exiting gracefully
+	Command being timed: "mpirun -np 1 ./MainProgram 200"
+	User time (seconds): 51.41
+	System time (seconds): 0.57
+	Percent of CPU this job got: 97%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:53.39
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 115192
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 194158
+	Voluntary context switches: 2126
+	Involuntary context switches: 4007
+	Swaps: 0
+	File system inputs: 80
+	File system outputs: 33336
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Number of processes: 1
+python3 SuffixTreeCreate.py 0 100 0 100 0 100 data/100.txt run1_R0
+python3 SuffixTreeCreate.py 0 100 0 100 1 100 data/100.txt run1_R0
+python3 SuffixTreeMerge.py run1 0 merge_master
+python3 SuffixTreeMerge.py run1 1 merge_master
+
+Exiting gracefully
+	Command being timed: "mpirun -np 1 ./MainProgram 100"
+	User time (seconds): 8.55
+	System time (seconds): 0.24
+	Percent of CPU this job got: 94%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:09.33
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 36368
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 47731
+	Voluntary context switches: 1632
+	Involuntary context switches: 729
+	Swaps: 0
+	File system inputs: 24
+	File system outputs: 10528
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

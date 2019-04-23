@@ -1,0 +1,24 @@
+#!/bin/bash
+#$ -cwd
+#$ -e /import/helium-share/csgrad/azizmma/ParallelProjectHorVer/error.txt
+# Set the number of processes here:
+#$ -pe mpi 32
+# Change the name of the execuatable here:
+cd /import/helium-share/csgrad/azizmma/ParallelProjectHorVer
+make
+set OMP_NUM_THREADS=1
+rm -rf tmp/*
+/usr/bin/time -v mpirun -np 32 ./MainProgram 10000
+rm -rf tmp/*
+/usr/bin/time -v mpirun -np 32 ./MainProgram 1000
+rm -rf tmp/*
+/usr/bin/time -v mpirun -np 32 ./MainProgram 500
+rm -rf tmp/*
+/usr/bin/time -v mpirun -np 32 ./MainProgram 400
+rm -rf tmp/*
+/usr/bin/time -v mpirun -np 32 ./MainProgram 300
+rm -rf tmp/*
+/usr/bin/time -v mpirun -np 32 ./MainProgram 200
+rm -rf tmp/*
+/usr/bin/time -v mpirun -np 32 ./MainProgram 100
+

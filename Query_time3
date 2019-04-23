@@ -1,0 +1,141 @@
+100
+Exact Q Execution time :0:00:00.077164
+Exact SetMaximal Q Execution time :0:00:00.234992
+Threshold Q Execution time :0:00:00.000004
+PosInvariant SetMaximal Q Execution time :0:00:00.021576
+200
+Exact Q Execution time :0:00:00.000392
+Exact SetMaximal Q Execution time :0:00:00.051492
+Threshold Q Execution time :0:00:00.000003
+PosInvariant SetMaximal Q Execution time :0:00:00.049258
+300
+Exact Q Execution time :0:00:00.000471
+Exact SetMaximal Q Execution time :0:00:00.093825
+Threshold Q Execution time :0:00:00.000002
+PosInvariant SetMaximal Q Execution time :0:00:00.094139
+400
+Exact Q Execution time :0:00:00.000581
+Exact SetMaximal Q Execution time :0:00:00.148386
+Threshold Q Execution time :0:00:00.000003
+PosInvariant SetMaximal Q Execution time :0:00:00.150852
+500
+Exact Q Execution time :0:00:00.000685
+Exact SetMaximal Q Execution time :0:00:00.213651
+Threshold Q Execution time :0:00:00.000003
+PosInvariant SetMaximal Q Execution time :0:00:00.219059
+1000
+Exact Q Execution time :0:00:00.001198
+Exact SetMaximal Q Execution time :0:00:00.687603
+Threshold Q Execution time :0:00:00.000003
+PosInvariant SetMaximal Q Execution time :0:00:00.717841
+
+
+500
+Tree building time :0:01:53.386079
+200
+Exact Q Execution time :0:00:00.000334
+Exact SetMaximal Q Execution time :0:00:00.045885
+Threshold Q Execution time :0:00:00.000003
+PosInvariant SetMaximal Q Execution time :0:00:00.041253
+300
+Exact Q Execution time :0:00:00.000395
+Exact SetMaximal Q Execution time :0:00:00.083221
+Threshold Q Execution time :0:00:00.000003
+PosInvariant SetMaximal Q Execution time :0:00:00.077867
+400
+Exact Q Execution time :0:00:00.000480
+Exact SetMaximal Q Execution time :0:00:00.132981
+Threshold Q Execution time :0:00:00.000003
+PosInvariant SetMaximal Q Execution time :0:00:00.125099
+500
+Exact Q Execution time :0:00:00.000570
+Exact SetMaximal Q Execution time :0:00:00.194900
+Threshold Q Execution time :0:00:00.000003
+PosInvariant SetMaximal Q Execution time :0:00:00.185813
+1000
+Exact Q Execution time :0:00:00.001001
+Exact SetMaximal Q Execution time :0:00:00.636092
+Threshold Q Execution time :0:00:00.000003
+PosInvariant SetMaximal Q Execution time :0:00:00.591833
+
+
+400
+Tree building time :0:00:59.280929
+Exact Q Execution time :0:00:00.000320
+Exact SetMaximal Q Execution time :0:00:00.016518
+PosInvariant SetMaximal Q Execution time :0:00:00.013930
+Threshold Q Execution time :0:00:00.013944
+Exact Q Execution time :0:00:00.000325
+Exact SetMaximal Q Execution time :0:00:00.039582
+PosInvariant SetMaximal Q Execution time :0:00:00.039355
+Threshold Q Execution time :0:00:00.039368
+Exact Q Execution time :0:00:00.000419
+Exact SetMaximal Q Execution time :0:00:00.072371
+PosInvariant SetMaximal Q Execution time :0:00:00.072985
+Threshold Q Execution time :0:00:00.072998
+Exact Q Execution time :0:00:00.000499
+Exact SetMaximal Q Execution time :0:00:00.111193
+PosInvariant SetMaximal Q Execution time :0:00:00.115031
+Threshold Q Execution time :0:00:00.115044
+Exact Q Execution time :0:00:00.000579
+Exact SetMaximal Q Execution time :0:00:00.161369
+PosInvariant SetMaximal Q Execution time :0:00:00.165421
+Threshold Q Execution time :0:00:00.165435
+Exact Q Execution time :0:00:00.001044
+Exact SetMaximal Q Execution time :0:00:00.543171
+PosInvariant SetMaximal Q Execution time :0:00:00.572784
+Threshold Q Execution time :0:00:00.572802
+
+300
+Tree building time :0:00:26.913957
+Exact Q Execution time :0:00:00.000253
+Exact SetMaximal Q Execution time :0:00:00.015255
+PosInvariant SetMaximal Q Execution time :0:00:00.012651
+Threshold Q Execution time :0:00:00.012664
+Exact Q Execution time :0:00:00.000255
+Exact SetMaximal Q Execution time :0:00:00.036933
+PosInvariant SetMaximal Q Execution time :0:00:00.035128
+Threshold Q Execution time :0:00:00.035141
+Exact Q Execution time :0:00:00.000326
+Exact SetMaximal Q Execution time :0:00:00.066413
+PosInvariant SetMaximal Q Execution time :0:00:00.064043
+Threshold Q Execution time :0:00:00.064055
+Exact Q Execution time :0:00:00.000384
+Exact SetMaximal Q Execution time :0:00:00.104894
+PosInvariant SetMaximal Q Execution time :0:00:00.100684
+Threshold Q Execution time :0:00:00.100697
+Exact Q Execution time :0:00:00.000448
+Exact SetMaximal Q Execution time :0:00:00.150196
+PosInvariant SetMaximal Q Execution time :0:00:00.146624
+Threshold Q Execution time :0:00:00.146637
+Exact Q Execution time :0:00:00.000808
+Exact SetMaximal Q Execution time :0:00:00.514199
+PosInvariant SetMaximal Q Execution time :0:00:00.500213
+Threshold Q Execution time :0:00:00.500229
+
+200
+Tree building time :0:00:07.735956
+Exact Q Execution time :0:00:00.000221
+Exact SetMaximal Q Execution time :0:00:00.012806
+PosInvariant SetMaximal Q Execution time :0:00:00.011626
+Threshold Q Execution time :0:00:00.011637
+Exact Q Execution time :0:00:00.000253
+Exact SetMaximal Q Execution time :0:00:00.032816
+PosInvariant SetMaximal Q Execution time :0:00:00.031267
+Threshold Q Execution time :0:00:00.031278
+Exact Q Execution time :0:00:00.000310
+Exact SetMaximal Q Execution time :0:00:00.061416
+PosInvariant SetMaximal Q Execution time :0:00:00.058694
+Threshold Q Execution time :0:00:00.058705
+Exact Q Execution time :0:00:00.000372
+Exact SetMaximal Q Execution time :0:00:00.098268
+PosInvariant SetMaximal Q Execution time :0:00:00.093942
+Threshold Q Execution time :0:00:00.093954
+Exact Q Execution time :0:00:00.000437
+Exact SetMaximal Q Execution time :0:00:00.142487
+PosInvariant SetMaximal Q Execution time :0:00:00.136138
+Threshold Q Execution time :0:00:00.136150
+Exact Q Execution time :0:00:00.000768
+Exact SetMaximal Q Execution time :0:00:00.481891
+PosInvariant SetMaximal Q Execution time :0:00:00.456384
+Threshold Q Execution time :0:00:00.456398

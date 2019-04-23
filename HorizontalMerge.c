@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
+#include <math.h>
 #include "mpi.h"
 //#include "Python.h"
 #include "omp.h"
@@ -14,11 +15,14 @@
 
 int *setup_message(int rank, int splits, int input_size) {
     static int message[SETUPSIZE];
-    message[0] = splits * rank;//start_position
-    message[1] = (splits * rank + splits > input_size) ? splits * rank + splits - input_size
-                                                       : splits;//How many sentences
-    message[2] = 0;//char count start
-    message[3] = input_size;//char count end --- only vertical partitioning
+    message[0] = 0;//start_position
+//    message[1] = (splits * rank + splits > input_size) ? splits * rank + splits - input_size
+//                                                       : splits;//How many sentences
+    message[1] = input_size;
+    message[2] = splits * rank;//char count start
+//    message[3] = input_size;//char count end --- only vertical partitioning
+    message[3] = (splits * rank + splits > input_size) ? splits * rank + splits - input_size
+                                                       : splits;//horizontal merge
     message[4] = input_size;
 
     return message;
@@ -27,7 +31,7 @@ int *setup_message(int rank, int splits, int input_size) {
 static char alphabet[2] = {'0', '1'};
 
 int do_work(int *setup_msg, int rank, int num_procs) {
-
+	double start_time = MPI_Wtime(); 
     int res = -1;
 #pragma omp parallel for
     for (int i = 0; i < 2; ++i) {
@@ -36,10 +40,12 @@ int do_work(int *setup_msg, int rank, int num_procs) {
         sprintf(out_string,
                 "python3 SuffixTreeCreate.py %d %d %d %d %c %d data/%d.txt run%d_R%d",
                 setup_msg[0], setup_msg[1],
-                setup_msg[2], setup_msg[3], alphabet[i], setup_msg[4], setup_msg[4],  num_procs,rank);
+                setup_msg[2], setup_msg[3], alphabet[i], setup_msg[4], setup_msg[4], num_procs, rank);
         printf("%s\n", out_string);
         res = system(out_string);
     }
+	double 	stop_time = MPI_Wtime();
+    printf("Work time (sec): %f\n", stop_time - start_time);
     return res;
 }
 
@@ -52,13 +58,14 @@ int main(int argc, char *argv[]) {
     MPI_Comm_rank(MPI_COMM_WORLD, &my_rank); //grab this process's rank
     MPI_Comm_size(MPI_COMM_WORLD, &num_procs); //grab the total num of processes
     MPI_Status status;
-
+	double start_time; // use these for timing
+    double stop_time;
     int *setup_msg;
     int finish = -1;
     if (my_rank == 0) {
         printf("Number of processes: %d\n", num_procs);
         int input_size = atoi(argv[1]);
-        int splits = (int) (input_size / num_procs);
+        int splits = (int) ceil(input_size / num_procs);
 
         for (int i = 1; i < num_procs; ++i) {
             setup_msg = setup_message(i, splits, input_size);
@@ -75,6 +82,7 @@ int main(int argc, char *argv[]) {
                 printf("Did not finish %d!", i);
         }
         //merge call from master
+		start_time = MPI_Wtime(); 
 #pragma omp parallel for
         for (int i = 0; i < 2; ++i) {
             char out_string[MAX_BUFFER_SIZE];
@@ -83,7 +91,8 @@ int main(int argc, char *argv[]) {
 
             system(out_string);
         }
-
+		stop_time = MPI_Wtime();
+        printf("Merge time (sec): %f\n", stop_time - start_time);
     } else {
         setup_msg = (int *) malloc(SETUPSIZE * sizeof(int));
         MPI_Recv(setup_msg, SETUPSIZE, MPI_INT, 0, SETUP, MPI_COMM_WORLD, &status);

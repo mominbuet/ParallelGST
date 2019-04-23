@@ -1,10 +1,11 @@
 #!/bin/bash
 #$ -cwd
-#$ -e /import/helium-share/csgrad/azizmma/ParallelProject/error.txt
+#$ -e /import/helium-share/csgrad/azizmma/ParallelProjectHorVer/error.txt
 # Set the number of processes here:
 #$ -pe mpi 4
 # Change the name of the execuatable here:
-cd /import/helium-share/csgrad/azizmma/ParallelProject
+cd /import/helium-share/csgrad/azizmma/ParallelProjectHorVer
+set OMP_NUM_THREADS=1
 make
 #rm -rf tmp/*
 #/usr/bin/time -v mpirun -np 4 ./MainProgram 10000

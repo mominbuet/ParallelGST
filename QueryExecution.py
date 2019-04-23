@@ -3,7 +3,7 @@ import datetime, pickle, resource, sys, os
 from suffix_tree import ukkonen
 from suffix_tree import ukkonen_gusfield
 import numpy as np
-
+import sys
 BUILDERS = [
     ['ukkonen', ukkonen.Builder],
     ['gusfield', ukkonen_gusfield.Builder]
@@ -24,7 +24,7 @@ def findPos(suffixTrie, q, tmp_length, original_start):
 
 
 def main():
-    filename = '500.txt'
+    filename = sys.argv[1]
 
     input = dict()
     index = 1

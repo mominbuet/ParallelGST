@@ -61,7 +61,7 @@ public class SearchQueryClientGC {
         time1 = new Date().getTime();
 //        String randHashStr = Arrays.toString(randBytes);
 
-        String IP = "44.224.230.229";//44.224.230.229,127.0.0.1
+        String IP = "SERVER IP HERE";
         sendGCData(IP, 50001, querySequences);
 
 

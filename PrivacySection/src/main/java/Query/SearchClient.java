@@ -181,7 +181,7 @@ public class SearchClient {
         time1 = new Date().getTime();
 //        String randHashStr = Arrays.toString(randBytes);
 
-        String IP = "44.224.230.229";//127.0.0.1
+        String IP = "Server IP here";//127.0.0.1
         sendData(IP, 50001, querySequences);
 
 

@@ -150,6 +150,7 @@ public class SearchServer {
 //        Scanner sc = new Scanner(new File(numNucleotide + ".hash"));
 //        BTreeByte root = new BTreeByte(true);
         List<BTreeByte> leafNodes = new ArrayList<>();
+        System.out.println("Loading GST");
         BTreeByte root = makeTree(numNucleotide + ".hash", new BTreeByte(true), true ,leafNodes);
 //        File[] listOfFiles = new File("Y:\\MominFiles\\TreeCodes\\GenomeMerkle\\hash500").listFiles();
 //

@@ -1,5 +1,7 @@
 package Query;
 
+import genomehashtree.AESUtils;
+
 import java.io.*;
 import java.net.Socket;
 import java.net.UnknownHostException;
@@ -11,6 +13,7 @@ import java.util.Scanner;
 import java.util.concurrent.TimeUnit;
 
 import static genomehashtree.ReverseMerkleWODB.addString;
+import static genomehashtree.ReverseMerkleWODB.secretKey;
 
 
 public class SearchClient {
@@ -62,14 +65,16 @@ public class SearchClient {
                 int queryStartPosition = 0;
                 String randHashStr = Arrays.toString(randBytes);
                 String currentHashStr = addString(query.substring(queryStartPosition), queryStartPosition, randHashStr);
-                out.writeUTF(currentHashStr);
+                String encryptedString  = Arrays.toString(AESUtils.encrypt(currentHashStr,secretKey));
+                out.writeUTF(encryptedString);
                 result = input.readUTF();
 //                System.out.println(result);
 
                 while (result.equals("NF") && queryStartPosition==0 ) {//< query.length() - 1// && query.length() - queryStartPosition > (int) query.length() * .75//Threshold
                     queryStartPosition += 1;
                     currentHashStr = addString(query.substring(queryStartPosition), queryStartPosition, randHashStr);
-                    out.writeUTF(currentHashStr);
+                    encryptedString  = Arrays.toString(AESUtils.encrypt(currentHashStr,secretKey));
+                    out.writeUTF(encryptedString);
                     result = input.readUTF();
 //                    System.out.println(result);
 
@@ -80,6 +85,8 @@ public class SearchClient {
             out.close();
         } catch (IOException | NoSuchAlgorithmException i) {
             System.out.println(i.getMessage());
+        } catch (Exception e) {
+            e.printStackTrace();
         }
 
 
@@ -181,7 +188,7 @@ public class SearchClient {
         time1 = new Date().getTime();
 //        String randHashStr = Arrays.toString(randBytes);
 
-        String IP = "Server IP here";//127.0.0.1
+        String IP = "127.0.0.1";//"44.224.230.229";//127.0.0.1
         sendData(IP, 50001, querySequences);
 
 

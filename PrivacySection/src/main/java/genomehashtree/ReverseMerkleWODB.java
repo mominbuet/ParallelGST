@@ -28,6 +28,7 @@ import java.util.Scanner;
 public class ReverseMerkleWODB {
 
     public static final String ALGORITHM = "MD5";
+    public static final String secretKey = "SecretKey!!!";
 
     public static String addStringWOPosition(String test, int position, String prevHashData) throws NoSuchAlgorithmException, UnsupportedEncodingException {
         MessageDigest md = MessageDigest.getInstance(ALGORITHM);
@@ -96,7 +97,7 @@ public class ReverseMerkleWODB {
         return Arrays.toString(prev_hash);
     }
 
-    public static void main(String[] args) throws NoSuchAlgorithmException, FileNotFoundException, UnsupportedEncodingException {
+    public static void main(String[] args) throws Exception {
         int numNucleotide = 1000;
 
         String[] sequences = new String[numNucleotide];
@@ -129,10 +130,12 @@ public class ReverseMerkleWODB {
             for (int j = test.length() - 1; j >= 0; j--) {
                 String currentHashStr = Arrays.toString(randBytes);
                 currentHashStr = addString(test.substring(j),  j, currentHashStr);
-                if (!hashValueMap.containsKey(currentHashStr)) {
-                    hashValueMap.put(currentHashStr, new ArrayList<>());
+                String encryptedString = Arrays.toString(AESUtils.encrypt(currentHashStr, secretKey));
+
+                if (!hashValueMap.containsKey(encryptedString)) {
+                    hashValueMap.put(encryptedString, new ArrayList<>());
                 }
-                hashValueMap.get(currentHashStr).add(i + ":" + j);
+                hashValueMap.get(encryptedString).add(i + ":" + j);
 //                if (hashValueMap.get(currentHashStr).size()>1)
 //                    System.out.println(String.join(",", hashValueMap.get(currentHashStr)));
             }

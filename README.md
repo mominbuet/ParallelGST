@@ -2,7 +2,7 @@
 
 The repository has two parts: `TreeConstruction` and `PrivacySection`. In the `data` folder we have the variable size data from `50x50` to `1000x1000` size (`nxm`)
 
-##TreeConstruction 
+## TreeConstruction 
 The program for generating the Suffix Trees are in `MainProgram.c` file. Check the call arguments in the pbs file. To comile and run: 
 ```
 make
